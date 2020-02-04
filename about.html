@@ -1,14 +1,15 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Hux."
+description: "Hey, this is Joseph (Vitae)."
 header-img: "img/about-bg.jpg"
 ---
 
 <!-- Language Selector -->
 <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英语 English </option>
+    <option value="0" selected> 英语 English </option>
+    <option value="1" > 中文 Chinese </option>
+
 </select>
 
 <!-- Chinese Version -->
@@ -52,11 +53,11 @@ header-img: "img/about-bg.jpg"
     var $en = document.querySelector(".en");
     function onLanChange(index){
         if(index == 0){
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
             $en.style.display = "block";
             $zh.style.display = "none";
+        }else{
+            $zh.style.display = "block";
+            $en.style.display = "none";
         }
     }
     onLanChange(0);
