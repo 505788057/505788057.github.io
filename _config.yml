@@ -6,12 +6,15 @@ email: 505788057@qq.com
 description: "Welcome to my Blog."
 keyword: "EI"
 url: "https://505788057.github.io"              # your host, for absolute URL
-# baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
+
+# Publish posts or collection documents with a future date.
+future: true
 
 
 # SNS settings
-# RSS: false
+RSS: false
 weibo_username:     vitaee
 zhihu_username:     vitaee
 github_username:    505788057
@@ -43,7 +46,12 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 
 # Disqus settings
