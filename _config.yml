@@ -16,7 +16,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: vitaee
-zhihu_username: vitaee
+# zhihu_username: vitaee
 github_username: 505788057
 # twitter_username:  huxpro
 # facebook_username:  huxpro
