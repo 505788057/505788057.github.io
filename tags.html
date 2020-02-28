@@ -6,29 +6,12 @@ header-img: "img/tag-bg.jpg"
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" id="tag-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <span class="subheading">{{ page.description }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{% include intro-header.html type='page' short=true %}
 
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-<!--			<div id='tag_cloud' class="tags">-->
-<!--				{% for tag in site.tags %}-->
-<!--				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>-->
-<!--				{% endfor %}-->
-<!--			</div>-->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
 				<a class="tag-button--all" data-encode="">
 					Show All
@@ -49,37 +32,8 @@ header-img: "img/tag-bg.jpg"
         {{ tags | split:'</a>' | sort | join:'</a>' }}
 			</div>
 
-            <!-- 标签列表 -->
-<!--			{% for tag in site.tags %}-->
-<!--			<div class="one-tag-list">-->
-<!--			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">-->
-<!--                    <span class="tag-text">{{ tag[0] }}</span>-->
-<!--                </span>-->
-<!--				{% for post in tag[1] %}-->
-<!--				  &lt;!&ndash; <li class="listing-item">-->
-<!--				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>-->
-<!--				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>-->
-<!--				  </li> &ndash;&gt;-->
-<!--				 <div class="post-preview">-->
-<!--				    <a href="{{ post.url | prepend: site.baseurl }}">-->
-<!--				        <h2 class="post-title">-->
-<!--                            {{ post.title }}-->
-<!--				        </h2>-->
-<!--				        {% if post.subtitle %}-->
-<!--				        <h3 class="post-subtitle">-->
-<!--				            {{ post.subtitle }}-->
-<!--				        </h3>-->
-<!--				        {% endif %}-->
-<!--				    </a>-->
-<!--				    &lt;!&ndash; <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> &ndash;&gt;-->
-<!--				</div>-->
-<!--				<hr>-->
-<!--				{% endfor %}-->
-<!--			</div>-->
-<!--			{% endfor %}-->
 
-<!--		</div>-->
-
+			<!-- Article List -->
 			<div class="mini-post-list js-result d-none">
 			{%- assign _sorted_list = site.posts -%}
 			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
