@@ -1,7 +1,7 @@
 # MyBlog
 ========
 ### [View live my blog &rarr;](https://505788057.github.io/)  
-![]()
+![](https://github.com/505788057/505788057.github.io/blob/master/img/blog-desk.png)
 
 First of all, I want to declare that the theme of blog comes from [HUX Blog](http://huangxuan.me/).
 He has opened resource about his blog theme. So I folk and modify it 
