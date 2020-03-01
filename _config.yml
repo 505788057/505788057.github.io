@@ -15,9 +15,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: vitaee
-zhihu_username: 505788057
-github_username: 505788057
+#weibo_username: vitaee
+#zhihu_username: 505788057
+#github_username: 505788057
 # twitter_username:  huxpro
 # facebook_username:  huxpro
 
@@ -85,19 +85,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "Github",
+        href: "https://github.com/505788057"
     },{
-        title: "How",
-        href: "#"
-    },{
-        title: "Can",
-        href: "#"
-    },{
-        title: "I",
-        href: "#"
-    },{
-        title: "Know",
-        href: "#"
+        title: "Weibo",
+        href: "https://weibo.com/vitaee"
     }
 ]

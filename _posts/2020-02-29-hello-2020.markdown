@@ -4,7 +4,7 @@ title:      "Welcome to Vitae Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2020-02-28 22:56:50
 author:     "Vitae"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/in-post/2020-02-29-hello-2020/post-bg-2015.jpg"
 tags:
     - 碎碎念
 ---

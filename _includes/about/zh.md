@@ -17,7 +17,8 @@ Hi，欢迎你来到我的博客。我叫Vitae, 名字源于拉丁语，所以�
 | 😏  | `JavaScript`       | `c++`     | `matlab` `java` | `Python` `C` `shell`  |
 
 > __`Python*` 环境中__：`imutils` `TKinter` `matplotlib` `numpy`  `opencv-python ` 
->                       `serial`  `pandas`  `PyQt5` `XlsxWriter` ``
+>                       `serial`  `pandas` `PyQt5` `XlsxWriter` 
+>
 > __`Installation*` 安装工具__：`conda` `pip` `gem`  
 
 ##### 硬件开发倾向
