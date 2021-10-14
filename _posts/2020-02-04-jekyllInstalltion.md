@@ -10,7 +10,7 @@ tags:
     - Blog
     - CS
 ---
-## Install the develop environment
+## Install the develop environment (Win10)
 - install the ruby and devkit
 - then change the [gem source](https://gems.ruby-china.com/)
 - gem install bundler
@@ -18,7 +18,11 @@ tags:
 - bundle update
 - gem install jekyll. if it does work, change to bundle exec jekyll serve.
   
-## Image
-There are some pictures which need to change later.
-- ABOUT: The image location in about.html (line 5)
+
+
+
+## Install on the Mac
+
+- install the Homebrew
+- [Here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
