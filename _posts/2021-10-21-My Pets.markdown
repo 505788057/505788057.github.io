@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "My pets"
+subtitle:   "Share some pictures with you."
+date:       2021-10-21
+author:     "Vitae"
+header-img: "img/in-post/2021-10-21-Mypets/post-bg-2015.jpg"
+tags:
+    - Germany
+    - Blog
+    - EFAF
+---
+
+​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet2.jpg" width="320">
+
+​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet1.jpg" width="320">
+
