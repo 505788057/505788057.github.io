@@ -11,7 +11,7 @@ tags:
     - EFAF
 ---
 
-​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet2.jpg" width="320">
+​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet2.JPG" width="320">
 
-​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet1.jpg" width="320">
+​    <img class="shadow" src="/img/in-post/2021-10-21-Mypets/pet1.JPG" width="320">
 
