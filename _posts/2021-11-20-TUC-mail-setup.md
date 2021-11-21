@@ -161,5 +161,5 @@ tags:
 
 制作不易，欢迎捐赠。谢谢😄。
 
-​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Alipay.JPG" width="300">
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/wechatpay.JPG" width="300">
 
