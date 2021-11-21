@@ -156,3 +156,10 @@ tags:
 - 完成设置，所有收发邮件都可以正常显示。
 
 ​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/pc8.jpg" width="500">
+
+## 关于打赏
+
+制作不易，欢迎捐赠。谢谢😄。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Alipay.JPG" width="300">
+
