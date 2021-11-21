@@ -1,4 +1,5 @@
 ---
+
 layout:     post
 title:      "How to set your own E-mail of TUC on phone and PC"
 subtitle:   "Tutorial by Zhicheng."
@@ -9,15 +10,16 @@ tags:
     - TUC
     - E-mail
 ---
-## 前言
-
-这份指导详细描述了如何在电脑端和手机端设置TUC的个人电子邮箱，方便日常及时的收发学校邮箱的邮件。相较于学校自有的邮箱网页，借助于IMAP技术的第三方软件，可以更加方便的编辑电子邮件，发送附件等。
+> 这份指导详细描述了如何在电脑端和手机端设置TUC的个人电子邮箱，方便日常及时的收发学校邮箱的邮件。相较于学校自有的邮箱网页，借助于IMAP技术的第三方软件，可以更加方便的编辑电子邮件，发送附件等。
+>
+> **关于踩雷**：文中使用的软件，都经过了测试，可以成功使用。学校的邮箱也并且仅限于支持这些软件。也曾尝试过foxmail， qq邮箱，均失败。
 
 ## 苹果手机端
 
 ### 准备工作
 
 - 苹果手机
+- 苹果自带邮箱
 - Safari浏览器
 
 ### 进程
@@ -63,6 +65,52 @@ tags:
 ​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/iphone2.PNG" width="200">
 
 
+
+## 安卓手机端
+
+### 准备工作
+
+- 安卓手机
+- 谷歌邮箱app
+
+### 进程
+
+- 首先在谷歌邮箱应用中，点击右上角，会出现对应窗口，然后添加其他账号。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android1.jpg" width="300">
+
+- 继续选择，其他
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android2.jpg" width="300">
+
+- 在这一步中，输入你TUC的电子邮箱账号，继续选择下一步。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android3.jpg" width="300">
+
+- 选择账号类型，个人IMAP类型。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android4.jpg" width="300">
+
+- 填入邮箱的密码
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android5.jpg" width="300">
+
+- 接受服务器设置与外发服务器设置
+  - 这两项设置中，用户名都填你的TUC学生账号（就是你登录OPAL）的学生账号。
+  - 密码为账号对应的密码
+  - 服务器信息均填：mail.tu-chemnitz.de
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android6.jpg" width="300">
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android7.jpg" width="300">
+
+- 最后一步设置一些基础的账号选项即可。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android8.jpg" width="240">
+
+- 设置成功。在这里，你可以同时管理你的谷歌邮箱账号和学校邮箱账号。
+
+​	<img class="shadow" src="/img/in-post/2020-02-04-mail-setup/Android9.jpg" width="300">
 
 ## PC端
 
